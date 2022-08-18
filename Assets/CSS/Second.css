@@ -1,0 +1,114 @@
+body {
+  /* overflow: hidden; */
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.principal {
+  height: 84vh;
+}
+
+.targetes {
+  height: 80vh;
+}
+.targete {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.joan {
+  height: 80%;
+}
+.lozano {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 20px;
+}
+
+.hidalgo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 20px;
+}
+
+.boton {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 80vh;
+}
+
+#mensaje {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 90%;
+}
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  text-align: justify;
+  height: 90%;
+  margin: 10px auto;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.results::-webkit-scrollbar {
+  display: none;
+}
+
+.image {
+  background-image: url("../Images/person.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-text {
+  font-size: large;
+  font-weight: bold;
+  width: 100%;
+}
